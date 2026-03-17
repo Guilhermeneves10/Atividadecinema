@@ -1,0 +1,18 @@
+let nomeDoFilme = "Harry Potter e o prisioneiro de Azkaban";
+let nome = "telespectardor";
+let quantidadeDeIngressos = 3;
+let valorDapipoca = 10;
+console.log("=====CINEMA===== ");
+console.log("Bem-vindo ao sistema de cinema! " + nome);
+console.log("Digite o nome do filme: ");
+console.log(nomeDoFilme);
+console.log("O filme escolhido foi: " + nomeDoFilme);
+console.log("digite a quantidade de ingressos: ");
+console.log(quantidadeDeIngressos);
+console.log("A quantidade de ingressos escolhida foi: " + quantidadeDeIngressos);
+console.log("O valor total a ser pago é: " + (quantidadeDeIngressos * 15) + " reais");
+console.log("Deseja pipoca ou refrigerante? (sim/não)");
+console.log("O cliente escolheu: sim");
+console.log("O valor total a ser pago com pipoca e refrigerante é: " + ((quantidadeDeIngressos * 15) + (valorDapipoca * 1)) + " reais");
+console.log("Pagamento realizado com sucesso!");
+console.log("Obrigado por usar nosso sistema de cinema! Aproveite o filme!");
