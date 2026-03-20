@@ -230,3 +230,26 @@ let valoresPar = [1, 2, 3, 4, 5]
 
 console.log("Segundo:", valoresPar[1]);
 console.log("Quarto:", valores[valoresPar.length - 2]);
+
+
+
+// outros exercicios
+const produtos = [
+    { id: 1, nome: "Notebook", preco: 3500 },
+    { id: 2, nome: "Mouse", preco: 150 },
+    { id: 3, nome: "Teclado", preco: 200 },
+    { id: 4, nome: "Monitor", preco: 1200 }
+];
+const produtosCaros = produtos.filter(produto => produto.preco > 500);
+
+const mouse = produtos.find(produto => produto.nome === "Mouse");
+
+const nomesProdutos = produtos.map(produto => produto.nome);
+
+
+const totalPreco = produtos.reduce((total, produto) => total + produto.preco, 0);
+
+console.log(produtosCaros);
+console.log(mouse);
+console.log(nomesProdutos);
+console.log(totalPreco);
